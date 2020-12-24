@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XNetCore.MyBatis", "XNetCore.MyBatis\XNetCore.MyBatis.csproj", "{C2ED8CEA-7EDA-4157-BE23-C1D6E7AC19E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNetCore.XTest", "XNetCore.XTest\XNetCore.XTest.csproj", "{71976E7A-5BCA-4240-9095-DE3BB1E58A8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2ED8CEA-7EDA-4157-BE23-C1D6E7AC19E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2ED8CEA-7EDA-4157-BE23-C1D6E7AC19E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2ED8CEA-7EDA-4157-BE23-C1D6E7AC19E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2ED8CEA-7EDA-4157-BE23-C1D6E7AC19E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71976E7A-5BCA-4240-9095-DE3BB1E58A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71976E7A-5BCA-4240-9095-DE3BB1E58A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71976E7A-5BCA-4240-9095-DE3BB1E58A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71976E7A-5BCA-4240-9095-DE3BB1E58A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {520D7CE7-5775-4C2D-B175-0A73D66C07FC}
+	EndGlobalSection
+EndGlobal
