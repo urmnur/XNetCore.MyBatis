@@ -1,5 +1,5 @@
-﻿using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.TypeHandlers;
+﻿using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
 
 #region Apache Notice
 /*****************************************************************************
@@ -26,7 +26,7 @@ using MyBatis.DataMapper.TypeHandlers;
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.DataMapper.Scope
+namespace XNetCore.MyBatis.DataMapper.Scope
 {
 	/// <summary>
 	/// 

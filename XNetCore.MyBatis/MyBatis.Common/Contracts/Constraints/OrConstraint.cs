@@ -24,7 +24,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// OrConstraint succeeds if either member succeeds 

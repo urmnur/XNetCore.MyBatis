@@ -26,9 +26,9 @@
 
 using System.Data;
 using System;
-using MyBatis.DataMapper.Session.Transaction;
+using XNetCore.MyBatis.DataMapper.Session.Transaction;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
     /// <summary>
     /// The DataMapper Session contract

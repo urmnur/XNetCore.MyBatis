@@ -25,7 +25,7 @@
 #endregion
 
 
-namespace MyBatis.DataMapper.Session.Transaction
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction
 {
     /// <summary>
     /// A factory for <c>ITransaction</c> instances.

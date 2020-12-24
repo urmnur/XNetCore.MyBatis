@@ -26,9 +26,9 @@
 
 using System.Collections.Generic;
 using System.Text;
-using MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities;
 
-namespace MyBatis.DataMapper.Model.Cache
+namespace XNetCore.MyBatis.DataMapper.Model.Cache
 {
 
 	/// <summary>

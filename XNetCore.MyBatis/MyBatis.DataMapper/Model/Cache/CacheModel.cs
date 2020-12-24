@@ -29,18 +29,18 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.Cache.Decorators;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Logging.Impl;
-using MyBatis.Common.Utilities;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.Cache.Decorators;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Logging.Impl;
+using XNetCore.MyBatis.Common.Utilities;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Cache
+namespace XNetCore.MyBatis.DataMapper.Model.Cache
 {
 
     /// <summary>

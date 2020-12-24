@@ -23,9 +23,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Data;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
 {
     /// <summary>
     /// Analyse the iBATIS XML configuration and import their configurations in the <see cref="IConfigurationStore"/>

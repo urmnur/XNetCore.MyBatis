@@ -25,10 +25,10 @@
 #endregion
 
 using System.Data;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.DataMapper.Session.Transaction
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction
 {
     /// <summary>
     /// Default implementation of the <see cref="ITransactionManager"/> interface. 

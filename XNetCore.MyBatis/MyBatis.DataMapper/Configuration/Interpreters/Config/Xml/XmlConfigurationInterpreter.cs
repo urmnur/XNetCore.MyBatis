@@ -26,14 +26,14 @@
 using System;
 using System.Reflection;
 using System.Xml;
-using MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
 {
     /// <summary>
     /// <see cref="XmlConfigurationInterpreter"/> is reponsible for translating the DataMapper configuration 

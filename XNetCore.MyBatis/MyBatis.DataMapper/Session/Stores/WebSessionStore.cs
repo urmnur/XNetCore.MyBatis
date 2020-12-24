@@ -24,9 +24,9 @@
 #endregion
 
 using System.Web;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.DataMapper.Session.Stores
+namespace XNetCore.MyBatis.DataMapper.Session.Stores
 {
 
 	/// <summary>

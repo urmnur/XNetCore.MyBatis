@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// Checks that an object is less than another

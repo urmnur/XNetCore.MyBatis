@@ -30,17 +30,17 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.TypeHandlers;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
     /// <summary>
     /// Main implementation of ResultMap interface

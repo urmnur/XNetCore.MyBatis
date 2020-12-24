@@ -25,11 +25,11 @@
 
 #endregion Apache Notice
 
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
     /// <summary>
     /// Summary description for IsPropertyAvailableTagHandler.

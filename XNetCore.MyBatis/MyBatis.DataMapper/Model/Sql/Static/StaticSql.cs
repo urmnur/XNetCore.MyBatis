@@ -26,18 +26,18 @@
 
 #region Imports
 
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
-using MyBatis.DataMapper.Data;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Sql.Static
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Static
 {
 	/// <summary>
 	/// Represents a simple (not a procedure) mapped statement without any dynamic element.

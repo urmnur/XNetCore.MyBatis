@@ -25,9 +25,9 @@
 
 using System;
 using System.ComponentModel;
-using MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.Events;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     /// <summary>
     /// Base implementation for <see cref="IMappedStatementEvents"/>

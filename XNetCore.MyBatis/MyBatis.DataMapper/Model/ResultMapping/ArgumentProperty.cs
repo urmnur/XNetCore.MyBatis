@@ -28,16 +28,16 @@
 
 using System;
 using System.Diagnostics;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements.ArgumentStrategy;
-using MyBatis.DataMapper.TypeHandlers;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements.ArgumentStrategy;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
 #endregion
 
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
 	/// <summary>
 	/// Summary description for ArgumentProperty.

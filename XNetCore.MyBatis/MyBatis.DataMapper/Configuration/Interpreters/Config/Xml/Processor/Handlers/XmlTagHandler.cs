@@ -23,7 +23,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
 {
 
     /// <summary>

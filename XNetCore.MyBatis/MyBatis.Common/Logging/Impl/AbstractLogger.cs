@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Logging.Impl
+namespace XNetCore.MyBatis.Common.Logging.Impl
 {
 	/// <summary>
 	/// Base class that implements the ILog interface.

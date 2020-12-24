@@ -29,16 +29,16 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Model.Events;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
     /// <summary>
     /// Implementation of <see cref="IResultMap"/> interface for auto mapping

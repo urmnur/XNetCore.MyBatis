@@ -27,9 +27,9 @@
 using System.Collections;
 using System.IO;
 using System.Threading;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
 
 	/// <summary>

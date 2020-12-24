@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Specialized;
 
-namespace MyBatis.Common.Logging.Impl
+namespace XNetCore.MyBatis.Common.Logging.Impl
 {
 	/// <summary>
 	/// Factory for creating "no operation" loggers that do nothing and whose Is*Enabled properties always 

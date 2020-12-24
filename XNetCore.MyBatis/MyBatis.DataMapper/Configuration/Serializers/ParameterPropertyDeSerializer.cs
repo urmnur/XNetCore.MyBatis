@@ -27,16 +27,16 @@
 
 using System.Collections.Specialized;
 using System.Xml;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.DataExchange;
 using System;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.Common.Configuration;
 
 #endregion 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for ParameterPropertyDeSerializer.

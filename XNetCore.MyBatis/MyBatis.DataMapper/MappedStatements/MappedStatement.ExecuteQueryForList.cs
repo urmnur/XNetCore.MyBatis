@@ -27,11 +27,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     public partial class MappedStatement
     {

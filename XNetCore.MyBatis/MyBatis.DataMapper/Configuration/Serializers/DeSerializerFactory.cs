@@ -24,13 +24,13 @@
 #endregion
 
 using System.Collections.Generic;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.Model;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for DeSerializerFactory.

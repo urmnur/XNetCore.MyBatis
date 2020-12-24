@@ -28,12 +28,12 @@
 using System;
 using System.Data;
 using System.Reflection;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.DataMapper.Session.Transaction.Ado
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction.Ado
 {
     /// <summary>
     /// Implement the <see cref="ITransaction" /> interface using an ADO.NET <see cref="IDbTransaction"/>

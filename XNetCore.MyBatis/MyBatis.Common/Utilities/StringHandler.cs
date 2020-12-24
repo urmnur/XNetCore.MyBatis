@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
     public class StringHandler
     {

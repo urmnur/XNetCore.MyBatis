@@ -28,7 +28,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
     /// <summary>
     /// Wraps an existing ICollection as read only, following the pattern of 

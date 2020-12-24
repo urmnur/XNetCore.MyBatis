@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
-using MyBatis.Common.Utilities;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
 {
     /// <summary>
     /// This is used to parse property names that refer to the current iterate item. i.e. "[]."

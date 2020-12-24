@@ -24,7 +24,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.Common.Contracts
+namespace XNetCore.MyBatis.Common.Contracts
 {
     /// <summary>
     /// 

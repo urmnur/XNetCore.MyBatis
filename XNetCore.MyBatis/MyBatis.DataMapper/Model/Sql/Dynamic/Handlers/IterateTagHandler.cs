@@ -29,14 +29,14 @@
 
 using System;
 using System.Text;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
 
 #endregion using
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
     /// <summary>
     /// Summary description for IterateTagHandler.

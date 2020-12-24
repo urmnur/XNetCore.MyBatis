@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Contracts.Exceptions
+namespace XNetCore.MyBatis.Common.Contracts.Exceptions
 {
     /// <summary>
     /// Base class for all exception raise when a contract is broken

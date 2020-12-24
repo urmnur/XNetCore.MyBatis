@@ -27,11 +27,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.ArgumentStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.ArgumentStrategy
 {
 	/// <summary>
 	/// <see cref="IArgumentStrategy"/> implementation when a 'select' attribute exists

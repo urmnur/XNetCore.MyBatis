@@ -25,15 +25,15 @@
 
 #region Using
 
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Model.Cache;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.Common.Configuration;
 
 #endregion 
 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for CacheModelDeSerializer.

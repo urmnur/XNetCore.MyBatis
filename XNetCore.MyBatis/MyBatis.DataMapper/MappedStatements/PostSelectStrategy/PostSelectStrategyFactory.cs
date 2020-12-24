@@ -26,7 +26,7 @@
 using System.Collections;
 using System.Collections.Specialized;
 
-namespace MyBatis.DataMapper.MappedStatements.PostSelectStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PostSelectStrategy
 {
 	/// <summary>
 	/// Factory to get <see cref="IPostSelectStrategy"/> implementation.

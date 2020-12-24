@@ -27,10 +27,10 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.Common.Configuration
+namespace XNetCore.MyBatis.Common.Configuration
 {
     /// <summary>
     /// 

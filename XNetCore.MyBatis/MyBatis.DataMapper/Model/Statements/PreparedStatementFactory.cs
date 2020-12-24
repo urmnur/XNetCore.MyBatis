@@ -32,21 +32,21 @@ using System.Collections.Specialized;
 using System.Data;
 using System.Reflection;
 using System.Text;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
-using MyBatis.DataMapper.Data;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Data;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Statements
+namespace XNetCore.MyBatis.DataMapper.Model.Statements
 {
 	/// <summary>
 	/// Summary description for PreparedStatementFactory.

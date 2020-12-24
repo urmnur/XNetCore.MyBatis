@@ -28,7 +28,7 @@
 using System.Data;
 using System;
 
-namespace MyBatis.DataMapper.Session.Transaction
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction
 {
     /// <summary>
     /// Represents a transaction abstraction to be performed at a data source.

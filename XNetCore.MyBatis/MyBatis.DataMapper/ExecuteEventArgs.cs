@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
 	/// <summary>
 	/// Summary description for ExecuteEventArgs.

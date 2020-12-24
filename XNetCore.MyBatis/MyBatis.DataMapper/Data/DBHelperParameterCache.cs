@@ -27,12 +27,12 @@
 using System;
 using System.Data;
 using System.Reflection;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Session;
 using System.Collections.Generic;
-using MyBatis.Common.Data;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
 	/// <summary>
 	/// DBHelperParameterCache provides functions to leverage a 

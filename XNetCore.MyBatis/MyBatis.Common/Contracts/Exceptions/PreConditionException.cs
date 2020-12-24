@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Contracts.Exceptions
+namespace XNetCore.MyBatis.Common.Contracts.Exceptions
 {
     /// <summary>
     /// Design By ContractException raised when a precondition fails.

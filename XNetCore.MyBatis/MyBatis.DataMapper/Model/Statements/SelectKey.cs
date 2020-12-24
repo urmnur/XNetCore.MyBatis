@@ -28,12 +28,12 @@
 
 using System;
 using System.Diagnostics;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Model.Sql.External;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.External;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Statements
+namespace XNetCore.MyBatis.DataMapper.Model.Statements
 {
 	/// <summary>
 	/// Represent a SelectKey tag element.

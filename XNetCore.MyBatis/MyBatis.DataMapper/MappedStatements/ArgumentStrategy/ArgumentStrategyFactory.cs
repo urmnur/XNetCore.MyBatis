@@ -23,9 +23,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.MappedStatements.ArgumentStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.ArgumentStrategy
 {
 	/// <summary>
 	/// Factory to get <see cref="IArgumentStrategy"/> implementation.

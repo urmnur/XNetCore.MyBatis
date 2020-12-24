@@ -27,16 +27,16 @@
 
 using System.Collections.Specialized;
 using System.Xml;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
 #endregion 
 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for IsPropertyAvailableDeSerializer.

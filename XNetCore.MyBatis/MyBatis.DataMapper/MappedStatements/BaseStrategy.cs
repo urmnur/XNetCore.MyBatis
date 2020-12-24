@@ -25,10 +25,10 @@
 
 using System.Data;
 using System.Text;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
 	/// <summary>
 	/// BaseStrategy.

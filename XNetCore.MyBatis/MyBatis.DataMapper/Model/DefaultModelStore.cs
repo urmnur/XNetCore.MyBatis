@@ -27,17 +27,17 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.Cache;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Session;
-using MyBatis.Common.Utilities;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Utilities;
 
-namespace MyBatis.DataMapper.Model
+namespace XNetCore.MyBatis.DataMapper.Model
 {
     /// <summary>
     /// The default implementation of <see cref="IModelStore"/> contract.

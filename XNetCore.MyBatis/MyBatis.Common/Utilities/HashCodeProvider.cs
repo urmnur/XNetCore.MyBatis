@@ -27,7 +27,7 @@
 using System;
 using System.Reflection;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
     /// <summary>
 	/// Summary description for HashCodeProvider.

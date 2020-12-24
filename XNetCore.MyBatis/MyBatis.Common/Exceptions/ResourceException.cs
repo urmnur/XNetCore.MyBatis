@@ -26,7 +26,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace MyBatis.Common.Exceptions
+namespace XNetCore.MyBatis.Common.Exceptions
 {
     /// <summary>
     /// A ResourceException is thrown when an error occurs in resource loading.

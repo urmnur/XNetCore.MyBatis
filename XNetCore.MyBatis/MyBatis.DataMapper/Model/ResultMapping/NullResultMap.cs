@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.DataExchange;
 using System.Collections.Generic;
-using MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.Events;
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
     /// <summary>
     /// Represents a Null ResultMap

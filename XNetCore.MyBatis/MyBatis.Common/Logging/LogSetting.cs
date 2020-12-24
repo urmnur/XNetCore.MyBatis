@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Specialized;
 
-namespace MyBatis.Common.Logging
+namespace XNetCore.MyBatis.Common.Logging
 {
 	/// <summary>
 	/// Container used to hold configuration information from config file.

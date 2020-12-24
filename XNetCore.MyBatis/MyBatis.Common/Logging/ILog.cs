@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Logging
+namespace XNetCore.MyBatis.Common.Logging
 {
 
 	/// <summary>

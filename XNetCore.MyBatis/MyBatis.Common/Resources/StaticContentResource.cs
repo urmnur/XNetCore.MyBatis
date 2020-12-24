@@ -27,7 +27,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
 	/// Adapts a static string content as an <see cref="IResource"/>

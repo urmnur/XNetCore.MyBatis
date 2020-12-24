@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MyBatis.DataMapper.Model.Cache.Implementation
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Implementation
 {
 	/// <summary>
     /// Cache following a LRU (least recently used) algorithm

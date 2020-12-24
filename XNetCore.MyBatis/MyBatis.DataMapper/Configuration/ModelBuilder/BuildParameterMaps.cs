@@ -24,13 +24,13 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.Configuration.Serializers;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.Configuration.Serializers;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.Common.Configuration;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     public partial class DefaultModelBuilder
     {

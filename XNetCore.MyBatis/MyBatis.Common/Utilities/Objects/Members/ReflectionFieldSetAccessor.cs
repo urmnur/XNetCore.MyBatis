@@ -26,7 +26,7 @@
 using System;
 using System.Reflection;
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// The <see cref="ReflectionFieldSetAccessor"/> class provides an reflection set access   

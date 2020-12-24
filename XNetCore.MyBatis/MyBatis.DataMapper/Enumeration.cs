@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
 	/// <summary>
 	/// Indicate if the generated key by a selectKey statement

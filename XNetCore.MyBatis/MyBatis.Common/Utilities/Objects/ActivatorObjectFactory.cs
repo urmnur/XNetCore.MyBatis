@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
     /// A <see cref="IObjectFactory"/> implementation that can create objects 

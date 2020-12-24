@@ -29,7 +29,7 @@ using System.Runtime.Serialization;
 using System.Collections.Generic;
 using System;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
     /// <summary>
     /// Represents a read only wrapper around a generic IDictionary. The design pattern

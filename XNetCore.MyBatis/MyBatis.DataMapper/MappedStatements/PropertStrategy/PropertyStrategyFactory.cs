@@ -25,10 +25,10 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.MappedStatements.PropertStrategy;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.MappedStatements.PropertStrategy;
 
-namespace MyBatis.DataMapper.MappedStatements.PropertyStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PropertyStrategy
 {
 	/// <summary>
 	/// Factory to get <see cref="IPropertyStrategy"/> implementation.

@@ -26,9 +26,9 @@
 
 using System;
 
-using MyBatis.DataMapper.Model.Sql;
+using XNetCore.MyBatis.DataMapper.Model.Sql;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Elements
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements
 {
 	/// <summary>
 	/// Summary description for DynamicParent.

@@ -25,10 +25,10 @@
 
 using System;
 using System.Collections;
-using MyBatis.DataMapper.Scope;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
-namespace MyBatis.DataMapper.MappedStatements.PostSelectStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PostSelectStrategy
 {
 	/// <summary>
 	/// <see cref="IPostSelectStrategy"/> implementation to exceute a query for 

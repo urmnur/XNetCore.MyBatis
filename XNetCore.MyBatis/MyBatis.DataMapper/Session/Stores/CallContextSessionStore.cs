@@ -25,7 +25,7 @@
 
 using System.Runtime.Remoting.Messaging;
 
-namespace MyBatis.DataMapper.Session.Stores
+namespace XNetCore.MyBatis.DataMapper.Session.Stores
 {
 	/// <summary>
 	/// Provides an implementation of <see cref="ISessionStore"/>

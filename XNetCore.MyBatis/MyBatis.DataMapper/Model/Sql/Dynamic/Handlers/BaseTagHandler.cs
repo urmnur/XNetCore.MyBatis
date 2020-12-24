@@ -26,12 +26,12 @@
 
 #region Using
 using System.Text;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
 	/// <summary>
 	/// Description r�sum�e de BaseTagHandler.

@@ -25,11 +25,11 @@
 
 #region Using
 
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Configuration;
 
 #endregion 
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
 	/// <summary>
 	/// Summary description for DataSourceDeSerializer.

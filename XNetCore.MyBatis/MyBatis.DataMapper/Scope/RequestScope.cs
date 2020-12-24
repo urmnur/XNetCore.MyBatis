@@ -28,17 +28,17 @@
 
 using System.Data;
 using System.Runtime.CompilerServices;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Session;
 using System.Collections.Generic;
 
 #endregion
 
-namespace MyBatis.DataMapper.Scope
+namespace XNetCore.MyBatis.DataMapper.Scope
 {
     /// <summary>
     /// Hold data during the process of a mapped statement.

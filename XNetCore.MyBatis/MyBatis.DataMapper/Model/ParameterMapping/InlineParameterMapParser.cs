@@ -31,17 +31,17 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Model.Binding;
-using MyBatis.DataMapper.Model.Sql.Dynamic;
-using MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Model.Binding;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
 
 #endregion Using
 
-namespace MyBatis.DataMapper.Model.ParameterMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ParameterMapping
 {
     /// <summary>
     /// Builds Parameter property for Inline Parameter Map.

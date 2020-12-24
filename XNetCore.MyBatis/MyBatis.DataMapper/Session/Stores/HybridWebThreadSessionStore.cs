@@ -26,7 +26,7 @@
 using System.Runtime.Remoting.Messaging;
 using System.Web;
 
-namespace MyBatis.DataMapper.Session.Stores
+namespace XNetCore.MyBatis.DataMapper.Session.Stores
 
 {
     /// <summary>

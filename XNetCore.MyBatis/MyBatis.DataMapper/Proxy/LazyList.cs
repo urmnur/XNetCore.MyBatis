@@ -26,12 +26,12 @@
 using System;
 using System.Collections;
 
-using MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
 using System.Reflection;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.Proxy
+namespace XNetCore.MyBatis.DataMapper.Proxy
 {
     /// <summary>
     /// A lazy list

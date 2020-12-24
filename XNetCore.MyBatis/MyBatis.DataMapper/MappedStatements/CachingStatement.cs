@@ -30,17 +30,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Model.Cache;
-using MyBatis.DataMapper.Model.Events;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
 #endregion 
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
 	/// <summary>
     /// Acts as a decorator arounf an <see cref="IMappedStatement"/> to add cache functionality
@@ -173,7 +173,7 @@ namespace MyBatis.DataMapper.MappedStatements
 		/// <param name="keyProperty">The property of the result object to be used as the key. </param>
 		/// <param name="valueProperty">The property of the result object to be used as the value (or null)</param>
 		/// <returns>A hashtable of object containing the rows keyed by keyProperty.</returns>
-		///<exception cref="MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
+		///<exception cref="XNetCore.MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
 		public IDictionary ExecuteQueryForMap(ISession session, object parameterObject, string keyProperty, string valueProperty)
 		{
             // this doesn't need to be in its own RunQueryForCachedMap method because the class is sealed and can't be called by anyone else
@@ -215,7 +215,7 @@ namespace MyBatis.DataMapper.MappedStatements
         /// <param name="keyProperty">The property of the result object to be used as the key. </param>
         /// <param name="valueProperty">The property of the result object to be used as the value (or null)</param>
         /// <returns>A hashtable of object containing the rows keyed by keyProperty.</returns>
-        ///<exception cref="MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
+        ///<exception cref="XNetCore.MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
         public IDictionary<K, V> ExecuteQueryForDictionary<K, V>(ISession session, object parameterObject, string keyProperty, string valueProperty)
         {
             // this doesn't need to be in its own RunQueryForCachedDictionary method because the class is sealed and can't be called by anyone else
@@ -258,7 +258,7 @@ namespace MyBatis.DataMapper.MappedStatements
         /// <param name="valueProperty">The property of the result object to be used as the value (or null)</param>
         /// <param name="rowDelegate"></param>
         /// <returns>A hashtable of object containing the rows keyed by keyProperty.</returns>
-        /// <exception cref="MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
+        /// <exception cref="XNetCore.MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
         public IDictionary<K, V> ExecuteQueryForDictionary<K, V>(ISession session, object parameterObject, string keyProperty, string valueProperty, DictionaryRowDelegate<K, V> rowDelegate)
         {
             return mappedStatement.ExecuteQueryForDictionary(session, parameterObject, keyProperty, valueProperty, rowDelegate);
@@ -508,7 +508,7 @@ namespace MyBatis.DataMapper.MappedStatements
 		/// <param name="valueProperty">The property of the result object to be used as the value (or null)</param>
 		/// <param name="rowDelegate"></param>
 		/// <returns>A hashtable of object containing the rows keyed by keyProperty.</returns>
-		/// <exception cref="MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
+		/// <exception cref="XNetCore.MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
 		public IDictionary ExecuteQueryForMapWithRowDelegate(ISession session, object parameterObject, string keyProperty, string valueProperty, DictionaryRowDelegate rowDelegate)
 		{
             // TODO: investigate allow the cached data to be processed by a different rowDelegate...add rowDelegate to the CacheKey ???

@@ -30,12 +30,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MyBatis.DataMapper.Model.Binding;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
+using XNetCore.MyBatis.DataMapper.Model.Binding;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
     /// <summary>
     /// Summary description for SqlTagContext.

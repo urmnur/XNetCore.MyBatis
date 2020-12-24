@@ -26,9 +26,9 @@
 using System;
 using System.Data;
 
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.TypeHandlers.Nullables
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers.Nullables
 {
     /// <summary>
     /// TypeHandler for Nullable UInt16 Type

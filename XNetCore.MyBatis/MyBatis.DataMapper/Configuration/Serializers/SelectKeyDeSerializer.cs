@@ -25,16 +25,16 @@
 
 #region Using
 
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Exceptions;
 
 #endregion 
 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
     /// <summary>
     /// Deserializes a selectKey element

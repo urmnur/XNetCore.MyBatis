@@ -32,22 +32,22 @@ using System.Collections;
 using System.Data;
 using System.Diagnostics;
 using System.Xml.Serialization;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Model.Binding;
-using MyBatis.DataMapper.Model.Sql.Dynamic;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
-using MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Model.Binding;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
 
 #endregion Using
 
-namespace MyBatis.DataMapper.Model.ParameterMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ParameterMapping
 {
     /// <summary>
     /// Summary description for ParameterProperty.

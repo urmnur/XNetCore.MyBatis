@@ -31,7 +31,7 @@ using System.Text;
 
 #endregion
 
-namespace MyBatis.DataMapper.Scope
+namespace XNetCore.MyBatis.DataMapper.Scope
 {
 	/// <summary>
 	/// An error context to help us create meaningful error messages.

@@ -25,15 +25,15 @@
 
 #region Using
 
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.Common.Configuration;
 
 #endregion 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for ProcedureDeSerializer.

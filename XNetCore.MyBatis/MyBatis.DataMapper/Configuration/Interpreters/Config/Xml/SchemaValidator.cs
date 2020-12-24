@@ -28,11 +28,11 @@ using System.IO;
 using System.Reflection;
 using System.Xml;
 using System.Xml.Schema;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
 {
 
     /// <summary>
@@ -55,9 +55,9 @@ namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
             try
             {
                 //Validate the document using a schema               
-                schemaXSD = Assembly.GetExecutingAssembly().GetManifestResourceStream("MyBatis.DataMapper." + schemaFileName); ;
+                schemaXSD = Assembly.GetExecutingAssembly().GetManifestResourceStream("XNetCore.MyBatis.DataMapper." + schemaFileName); ;
 
-                Contract.Assert.That(schemaXSD, Is.Not.Null).When("loading embedded resource [MyBatis.DataMapper." + schemaFileName + "]. If you are building from source, verfiy the file is marked as an embedded resource.");
+                Contract.Assert.That(schemaXSD, Is.Not.Null).When("loading embedded resource [XNetCore.MyBatis.DataMapper." + schemaFileName + "]. If you are building from source, verfiy the file is marked as an embedded resource.");
 
                 XmlSchema schema = XmlSchema.Read(schemaXSD, delegate(object sender, ValidationEventArgs args)
                                                        {

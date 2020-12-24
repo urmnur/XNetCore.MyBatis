@@ -25,9 +25,9 @@
 #endregion
 
 using System;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.Common.Contracts
+namespace XNetCore.MyBatis.Common.Contracts
 {
     public delegate void ThrowException(string message);
     public delegate bool IsSatisfied();

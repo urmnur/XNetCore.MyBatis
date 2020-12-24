@@ -25,23 +25,23 @@
 
 using System;
 using System.Text;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.Configuration.Serializers;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Sql.Dynamic;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Model.Sql.External;
-using MyBatis.DataMapper.Model.Sql.SimpleDynamic;
-using MyBatis.DataMapper.Model.Sql.Static;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Session;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.Configuration.Serializers;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.External;
+using XNetCore.MyBatis.DataMapper.Model.Sql.SimpleDynamic;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Static;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     /// <summary>
     /// This implementation of <see cref="IConfigurationStore"/>, builds all statement.

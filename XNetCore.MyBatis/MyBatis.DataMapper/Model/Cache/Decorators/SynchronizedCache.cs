@@ -25,9 +25,9 @@
 #endregion
 
 using System.Runtime.CompilerServices;
-using MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
 
-namespace MyBatis.DataMapper.Model.Cache.Decorators
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Decorators
 {
     /// <summary>
     /// Cache decorator specifying that each cache method of the delegate cache can only 

@@ -33,23 +33,23 @@ using System.Data;
 using System.Diagnostics;
 using System.Globalization;
 using System.Reflection;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.MappedStatements.ArgumentStrategy;
-using MyBatis.DataMapper.MappedStatements.PropertyStrategy;
-using MyBatis.DataMapper.Proxy;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.TypeHandlers;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.MappedStatements.ArgumentStrategy;
+using XNetCore.MyBatis.DataMapper.MappedStatements.PropertyStrategy;
+using XNetCore.MyBatis.DataMapper.Proxy;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
 	/// <summary>
 	/// Summary description for ResultProperty.

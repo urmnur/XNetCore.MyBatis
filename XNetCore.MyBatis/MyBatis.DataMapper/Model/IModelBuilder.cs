@@ -24,9 +24,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Configuration;
+using XNetCore.MyBatis.DataMapper.Configuration;
 
-namespace MyBatis.DataMapper.Model
+namespace XNetCore.MyBatis.DataMapper.Model
 {
     /// <summary>
     /// The contract used by the <see cref="IConfigurationEngine"/> to build

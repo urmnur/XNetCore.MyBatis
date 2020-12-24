@@ -24,7 +24,7 @@
 #endregion
 
 
-namespace MyBatis.DataMapper.Session.Stores
+namespace XNetCore.MyBatis.DataMapper.Session.Stores
 {
 	/// <summary>
 	/// Build a session container for a Windows or Web context.

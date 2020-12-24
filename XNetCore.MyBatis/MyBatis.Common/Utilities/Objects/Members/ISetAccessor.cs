@@ -24,7 +24,7 @@
 #endregion
 
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// The <see cref="ISetAccessor"/> interface defines a field/property set accessor.

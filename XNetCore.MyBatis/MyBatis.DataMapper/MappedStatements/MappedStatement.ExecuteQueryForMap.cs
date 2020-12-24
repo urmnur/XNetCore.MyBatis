@@ -26,12 +26,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     public partial class MappedStatement
     {
@@ -62,7 +62,7 @@ namespace MyBatis.DataMapper.MappedStatements
         /// <param name="keyProperty">The property of the result object to be used as the key. </param>
         /// <param name="valueProperty">The property of the result object to be used as the value (or null)</param>
         /// <returns>A IDictionary of object containing the rows keyed by keyProperty.</returns>
-        ///<exception cref="MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
+        ///<exception cref="XNetCore.MyBatis.DataMapper.Exceptions.DataMapperException">If a transaction is not in progress, or the database throws an exception.</exception>
         public virtual IDictionary<K, V> ExecuteQueryForDictionary<K, V>(ISession session, object parameterObject, string keyProperty, string valueProperty)
         {
             return Execute(PreSelectEventKey,PostSelectEventKey,session,parameterObject,

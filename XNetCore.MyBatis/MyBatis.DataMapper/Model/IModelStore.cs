@@ -24,15 +24,15 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.Cache;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.Model
+namespace XNetCore.MyBatis.DataMapper.Model
 {
     /// <summary>
     /// Holds all the iBATIS core model (statement, alias, resultMap, parameterMap, dataSource).

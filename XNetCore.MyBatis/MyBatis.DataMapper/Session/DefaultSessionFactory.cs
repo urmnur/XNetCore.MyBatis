@@ -26,12 +26,12 @@
 
 using System;
 using System.Data;
-using MyBatis.DataMapper.Session.Transaction;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Data;
+using XNetCore.MyBatis.DataMapper.Session.Transaction;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Data;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
     /// <summary>
     /// Default implementation of the <see cref="ISessionFactory"/> contract. 

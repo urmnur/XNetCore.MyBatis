@@ -24,10 +24,10 @@
 #endregion
 
 using System.Data;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     public partial class MappedStatement
     {

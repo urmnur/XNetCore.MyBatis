@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// A <see cref="IObjectFactory"/> implementation that for abstract type

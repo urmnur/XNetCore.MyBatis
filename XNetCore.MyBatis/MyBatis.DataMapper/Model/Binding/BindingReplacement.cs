@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace MyBatis.DataMapper.Model.Binding
+namespace XNetCore.MyBatis.DataMapper.Model.Binding
 {
     internal class BindingReplacement
     {

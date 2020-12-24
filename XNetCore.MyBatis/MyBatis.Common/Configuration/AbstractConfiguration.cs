@@ -26,7 +26,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MyBatis.Common.Configuration
+namespace XNetCore.MyBatis.Common.Configuration
 {
 
     /// <summary>

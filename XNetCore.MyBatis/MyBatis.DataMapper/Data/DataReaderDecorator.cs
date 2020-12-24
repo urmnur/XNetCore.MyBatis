@@ -25,9 +25,9 @@
 
 using System;
 using System.Data;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
     /// <summary>
     /// Decorate an <see cref="System.Data.IDataReader"></see>

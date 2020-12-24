@@ -26,7 +26,7 @@
 using System;
 using System.IO;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// The central abstraction for iBATIS.NET's access to resources.

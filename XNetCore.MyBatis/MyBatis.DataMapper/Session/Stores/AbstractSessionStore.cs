@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper.Session.Stores
+namespace XNetCore.MyBatis.DataMapper.Session.Stores
 
 {
 	/// <summary>

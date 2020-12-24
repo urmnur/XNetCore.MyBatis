@@ -27,18 +27,18 @@
 
 #region Using
 
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
 
 #endregion Using
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
     /// <summary>
-    /// This is the class responsible for de-serializing the "bind" element for usage within class <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.
-    /// The logic associated with binding all happens within the <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
-    /// For a description on how the "bind" element can be used, please see: <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
+    /// This is the class responsible for de-serializing the "bind" element for usage within class <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.
+    /// The logic associated with binding all happens within the <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
+    /// For a description on how the "bind" element can be used, please see: <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
     /// </summary>
     /// <remarks>
     /// Created By: Richard Beacroft

@@ -27,7 +27,7 @@ using System;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// The <see cref="DelegatePropertySetAccessor"/> class defines a set property accessor and

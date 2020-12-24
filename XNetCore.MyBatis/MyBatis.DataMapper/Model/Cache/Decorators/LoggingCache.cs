@@ -26,9 +26,9 @@
 
 using System;
 using System.Reflection;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.DataMapper.Model.Cache.Decorators
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Decorators
 {
     /// <summary>
     /// A cache decorator that logs all cache access

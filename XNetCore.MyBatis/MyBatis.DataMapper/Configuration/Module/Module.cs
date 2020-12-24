@@ -24,10 +24,10 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.DataMapper.Configuration.Module
+namespace XNetCore.MyBatis.DataMapper.Configuration.Module
 {
     /// <summary>
     /// Base class for code configuration modules. 

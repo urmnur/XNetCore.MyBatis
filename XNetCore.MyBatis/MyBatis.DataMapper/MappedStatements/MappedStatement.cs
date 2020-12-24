@@ -30,23 +30,23 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Model.Events;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.MappedStatements.ResultStrategy;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.MappedStatements.PostSelectStrategy;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.TypeHandlers;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.MappedStatements.ResultStrategy;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.MappedStatements.PostSelectStrategy;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.DataMapper.Session;
 using System.Diagnostics;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     /// <summary>
     /// Base implementation of <see cref="IMappedStatement"/>.

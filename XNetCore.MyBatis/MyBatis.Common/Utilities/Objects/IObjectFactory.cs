@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// A factory that can create objects 

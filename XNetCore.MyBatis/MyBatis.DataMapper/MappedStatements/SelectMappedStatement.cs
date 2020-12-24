@@ -24,12 +24,12 @@
 #endregion
 
 
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
 	/// <summary>
 	/// Summary description for SelectMappedStatement.

@@ -30,18 +30,18 @@ using System;
 using System.Collections;
 using System.Data;
 using System.Reflection;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
 using System.Collections.Generic;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
 #endregion
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     /// <summary>
     /// Build a dynamic instance of a <see cref="ResultPropertyCollection"/>

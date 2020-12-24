@@ -26,9 +26,9 @@
 
 using System;
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
     /// <summary>
     /// TypeHandler for UInt16 Type

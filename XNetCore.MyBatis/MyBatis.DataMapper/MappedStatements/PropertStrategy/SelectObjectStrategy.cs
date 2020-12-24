@@ -26,10 +26,10 @@
 using System;
 using System.Collections;
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.PropertyStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PropertyStrategy
 {
 	/// <summary>
 	/// <see cref="IPropertyStrategy"/> implementation when a 'select' attribute exists

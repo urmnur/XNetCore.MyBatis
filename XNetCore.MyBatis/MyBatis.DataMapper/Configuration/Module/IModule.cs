@@ -23,9 +23,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Configuration;
 
-namespace MyBatis.DataMapper.Configuration.Module
+namespace XNetCore.MyBatis.DataMapper.Configuration.Module
 {
     /// <summary>
     /// Represents a set of mapping code configuration and related functionality

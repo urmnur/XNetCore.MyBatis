@@ -23,9 +23,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.PostSelectStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PostSelectStrategy
 {
 	/// <summary>
 	/// <see cref="IPostSelectStrategy"/> implementation to exceute a query for object.

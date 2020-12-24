@@ -26,7 +26,7 @@
 
 using System.Collections;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
 		
 	/// <summary>

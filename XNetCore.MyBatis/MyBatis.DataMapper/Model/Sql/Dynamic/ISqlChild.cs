@@ -28,7 +28,7 @@
 using System;
 #endregion
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic
 {
 	/// <summary>
 	/// Summary description for ISqlChild.

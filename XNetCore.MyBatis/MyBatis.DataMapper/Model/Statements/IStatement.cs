@@ -31,15 +31,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Cache;
-using MyBatis.DataMapper.Model.Sql;
-using MyBatis.DataMapper.Model.Sql.External;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.Sql;
+using XNetCore.MyBatis.DataMapper.Model.Sql.External;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Statements
+namespace XNetCore.MyBatis.DataMapper.Model.Statements
 {
     /// <summary>
     /// Summary description for ISql.

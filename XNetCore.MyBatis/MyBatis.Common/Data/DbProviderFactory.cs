@@ -24,10 +24,10 @@
 #endregion
 
 using System.Collections.Generic;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
     /// <summary>
     /// Create DbProviders based on configuration information from resource

@@ -25,11 +25,11 @@
 #endregion
 
 using System.Data;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.Model.Sql
+namespace XNetCore.MyBatis.DataMapper.Model.Sql
 {
 	/// <summary>
 	/// Summary description for ISql.

@@ -28,7 +28,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     
     /// <summary>

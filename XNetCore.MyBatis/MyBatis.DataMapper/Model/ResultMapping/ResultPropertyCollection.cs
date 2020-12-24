@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
 	/// <summary>
 	/// A ResultProperty Collection.

@@ -25,9 +25,9 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Session;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
     /// <summary>
     /// Local SessionScope management

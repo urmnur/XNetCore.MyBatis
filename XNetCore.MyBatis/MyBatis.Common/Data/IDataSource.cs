@@ -23,7 +23,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
 	/// <summary>
 	/// IDataSource

@@ -24,7 +24,7 @@
 #endregion
 
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// The <see cref="IGet"/> interface defines a field/property get contrat to get the

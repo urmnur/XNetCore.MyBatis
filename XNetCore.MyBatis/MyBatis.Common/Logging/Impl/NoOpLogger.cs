@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Logging.Impl
+namespace XNetCore.MyBatis.Common.Logging.Impl
 {
 	/// <summary>
 	/// Silently ignores all log messages.

@@ -25,9 +25,9 @@
 
 using System.Collections.Generic;
 using System.Xml;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Configuration
+namespace XNetCore.MyBatis.Common.Configuration
 {
     /// <summary>
     ///  Various utility methods relating to attribute configuration reading.

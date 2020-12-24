@@ -26,9 +26,9 @@
 
 using System;
 using System.Collections.Specialized;
-using MyBatis.Common.Logging.Impl;
+using XNetCore.MyBatis.Common.Logging.Impl;
 
-namespace MyBatis.Common.Logging
+namespace XNetCore.MyBatis.Common.Logging
 {
 	/// <summary>
 	/// Defines the members that logging implementations must implement.

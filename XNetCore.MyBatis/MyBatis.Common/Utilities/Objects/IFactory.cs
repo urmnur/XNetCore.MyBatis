@@ -24,7 +24,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// Factory to create object for a given type

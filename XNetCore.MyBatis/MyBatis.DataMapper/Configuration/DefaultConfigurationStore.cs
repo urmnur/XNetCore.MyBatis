@@ -28,10 +28,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Data;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     /// <summary>
 	/// This implementation of <see cref="IConfigurationStore"/>

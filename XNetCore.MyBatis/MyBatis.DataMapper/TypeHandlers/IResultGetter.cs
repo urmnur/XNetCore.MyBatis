@@ -26,7 +26,7 @@
 
 using System.Data;
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
 	/// <summary>
 	/// Allows values to be retrieved from the underlying IDataReader.

@@ -28,17 +28,17 @@
 using System;
 using System.Data;
 using System.Xml.Serialization;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Model.Cache;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.Cache;
 using System.Diagnostics;
-using MyBatis.DataMapper.Model.Sql.External;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Model.Sql.External;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
 
-namespace MyBatis.DataMapper.Model.Statements
+namespace XNetCore.MyBatis.DataMapper.Model.Statements
 {
 	/// <summary>
 	/// Summary description for delete.

@@ -28,11 +28,11 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.DataExchange;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
     /// <summary>
     /// This is a grouping of ResultMapping objects used to map results back to objects

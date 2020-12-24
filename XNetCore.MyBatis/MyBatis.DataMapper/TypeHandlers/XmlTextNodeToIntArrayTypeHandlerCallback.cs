@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml;
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
     /// <summary>
     /// Summary description for XmlNodeToIntArrayTypeHandlerCallback.

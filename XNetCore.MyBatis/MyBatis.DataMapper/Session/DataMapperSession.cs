@@ -27,13 +27,13 @@
 using System;
 using System.Data;
 using System.Diagnostics;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Session.Transaction;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Session.Transaction;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
     /// <summary>
     /// Default implementation of the <see cref="ISession"/> contract. 

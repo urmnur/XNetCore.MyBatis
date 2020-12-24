@@ -30,11 +30,11 @@
 using System;
 using System.Collections;
 
-using MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Exceptions;
 
 #endregion Imports
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
     /// <summary>
     /// Summary description for IterateContext.

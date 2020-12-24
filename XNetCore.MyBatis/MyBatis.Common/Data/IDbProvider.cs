@@ -2,7 +2,7 @@
 using System.Data;
 using System.Xml.Serialization;
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
 	/// <summary>
 	/// Factory interface to create provider specific ado.net objects.

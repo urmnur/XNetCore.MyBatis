@@ -23,10 +23,10 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
 
-namespace MyBatis.DataMapper.MappedStatements.ResultStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.ResultStrategy
 {
     /// <summary>
     /// Factory to get <see cref="IResultStrategy"/> implementation.

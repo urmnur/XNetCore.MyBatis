@@ -24,7 +24,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     /// <summary>
     /// Provides access to the underlying <see cref="IDataMapper"/>

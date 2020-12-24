@@ -36,12 +36,12 @@ using System.Reflection;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
 #endregion
 
-namespace MyBatis.Common.Utilities.TypesResolver
+namespace XNetCore.MyBatis.Common.Utilities.TypesResolver
 {
 	/// <summary>
 	/// Resolves a <see cref="System.Type"/> by name.

@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// The <see cref="IAccessor"/> interface defines a field/property contract.

@@ -24,9 +24,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.Common.Contracts.Exceptions;
+using XNetCore.MyBatis.Common.Contracts.Exceptions;
 
-namespace MyBatis.Common.Contracts
+namespace XNetCore.MyBatis.Common.Contracts
 {
     /// <summary>
     /// Helper class for pre conditions checks

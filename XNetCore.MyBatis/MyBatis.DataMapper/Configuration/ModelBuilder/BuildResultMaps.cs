@@ -23,10 +23,10 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Configuration.Serializers;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Configuration.Serializers;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     public partial class DefaultModelBuilder
     {

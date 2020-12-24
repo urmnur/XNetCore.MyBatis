@@ -28,10 +28,10 @@ using System;
 using System.Collections;
 using System.Data;
 using System.IO;
-using MyBatis.Common.Data;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
 	/// <summary>
 	/// Description r�sum�e de ScriptRunner.

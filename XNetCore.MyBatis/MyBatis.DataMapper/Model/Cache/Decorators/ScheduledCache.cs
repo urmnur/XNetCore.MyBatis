@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper.Model.Cache.Decorators
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Decorators
 {
     /// <summary>
     /// Cache decorator which clears the delegate cache on interval

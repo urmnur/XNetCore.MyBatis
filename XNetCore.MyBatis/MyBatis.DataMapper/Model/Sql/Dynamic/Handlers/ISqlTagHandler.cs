@@ -25,9 +25,9 @@
 #endregion
 
 using System.Text;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
 	/// <summary>
 	/// Summary description for ISqlTagHandler.

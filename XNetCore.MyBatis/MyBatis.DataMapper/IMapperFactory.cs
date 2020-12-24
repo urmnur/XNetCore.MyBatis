@@ -23,7 +23,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     /// <summary>
     /// Responsible to build mapper interface instance

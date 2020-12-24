@@ -28,7 +28,7 @@ using System;
 using System.Globalization;
 using System.Text;
 
-namespace MyBatis.Common.Logging.Impl
+namespace XNetCore.MyBatis.Common.Logging.Impl
 {
 	/// <summary>
 	/// Logger that sends output to the <see cref="System.Diagnostics.Trace" /> sub-system.

@@ -1,4 +1,4 @@
-﻿namespace MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
+﻿namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
 {
     /// <summary>
     /// Abstract base class used to handle sql text token parsing.

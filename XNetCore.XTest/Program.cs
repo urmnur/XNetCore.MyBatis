@@ -21,7 +21,6 @@ namespace XNetCore.XTest
         }
         static void xtest()
         {
-
         }
     }
 }

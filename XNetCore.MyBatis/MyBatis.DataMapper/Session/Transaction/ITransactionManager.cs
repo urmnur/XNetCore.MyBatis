@@ -26,7 +26,7 @@
 
 using System.Data;
 
-namespace MyBatis.DataMapper.Session.Transaction
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction
 {
     /// <summary>
     /// The <c>TransactionManager</c> interface defines the methods to manage transaction boundaries. 

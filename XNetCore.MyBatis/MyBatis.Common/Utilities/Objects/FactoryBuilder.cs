@@ -26,10 +26,10 @@
 using System;
 using System.Reflection;
 using System.Reflection.Emit;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// Build IFactory object via IL 

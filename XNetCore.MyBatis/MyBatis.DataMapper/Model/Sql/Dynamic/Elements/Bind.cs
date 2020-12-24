@@ -29,16 +29,16 @@
 
 using System;
 using System.Xml.Serialization;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
 
 #endregion Using
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Elements
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements
 {
     /// <summary>
     /// A bind element can be used as a place holder or variable for later use.
-    /// <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.Handlers.BindTagHandler"/>
+    /// <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers.BindTagHandler"/>
     /// </summary>
     /// <remarks>
     /// Updated By: Richard Beacroft

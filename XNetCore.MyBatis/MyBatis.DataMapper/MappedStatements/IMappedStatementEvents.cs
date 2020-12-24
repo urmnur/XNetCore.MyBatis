@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.Events;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
     /// <summary>
     /// Defines the contract for events generated during statement execution.

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config
 {
     /// <summary>
     /// <see cref="IConfigurationInterpreter"/> is reponsible for translating the DataMapper configuration 

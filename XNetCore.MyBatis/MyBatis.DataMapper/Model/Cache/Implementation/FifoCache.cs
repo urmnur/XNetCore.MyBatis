@@ -26,7 +26,7 @@
 
 using System.Collections.Generic;
 
-namespace MyBatis.DataMapper.Model.Cache.Implementation
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Implementation
 {
 	/// <summary>
     /// Cache following a FIFO (first in, first out) algorithm

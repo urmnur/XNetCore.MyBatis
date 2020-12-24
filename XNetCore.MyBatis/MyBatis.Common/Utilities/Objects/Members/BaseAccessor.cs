@@ -29,7 +29,7 @@ using System.Collections.Specialized;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// Abstract base class for member accessor

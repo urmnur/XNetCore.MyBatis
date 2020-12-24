@@ -25,7 +25,7 @@
 
 using System.Collections.Generic;
 
-namespace MyBatis.DataMapper.Model.ParameterMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ParameterMapping
 {
 	/// <summary>
 	/// A ParameterProperty Collection.

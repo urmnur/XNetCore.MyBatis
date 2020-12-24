@@ -26,11 +26,11 @@
 
 using System;
 using System.Diagnostics;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Utilities;
 
-namespace MyBatis.DataMapper.Model.Alias
+namespace XNetCore.MyBatis.DataMapper.Model.Alias
 {
     /// <summary>
     /// Represent a type alias

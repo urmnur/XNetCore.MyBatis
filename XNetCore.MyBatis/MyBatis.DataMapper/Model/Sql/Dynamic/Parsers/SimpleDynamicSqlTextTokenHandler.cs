@@ -1,12 +1,12 @@
 ﻿using System;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.DataExchange;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
 {
     /// <summary>
     /// This is used within simple dynamic sql processing to process bindings and property names.
-    /// Please see <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.Parsers.TextPropertyProbe"/> for more details.
+    /// Please see <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers.TextPropertyProbe"/> for more details.
     /// </summary>
     internal class SimpleDynamicSqlTextTokenHandler : TextTokenHandlerBase
     {

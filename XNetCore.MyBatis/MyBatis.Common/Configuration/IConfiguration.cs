@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MyBatis.Common.Configuration
+namespace XNetCore.MyBatis.Common.Configuration
 {
     /// <summary>
     /// <see cref="IConfiguration"/>  is a interface encapsulating a configuration node

@@ -23,10 +23,10 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.DataExchange
+namespace XNetCore.MyBatis.DataMapper.DataExchange
 {
 	/// <summary>
 	/// Interface for exchanging data between a parameter map/result map and the related objects

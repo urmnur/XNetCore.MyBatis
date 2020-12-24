@@ -24,11 +24,11 @@
 #endregion
 
 using System.Collections;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
-namespace MyBatis.DataMapper.DataExchange
+namespace XNetCore.MyBatis.DataMapper.DataExchange
 {
 	/// <summary>
 	/// DataExchange implementation for IDictionary objects

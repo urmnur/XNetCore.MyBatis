@@ -29,22 +29,22 @@
 
 using System;
 using System.Text;
-using MyBatis.Common.Utilities.Objects.Members;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion Imports
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
     /// <summary>
     /// Updated By: Richard Beacroft
     /// Updated Date: 11\10\2013
     /// This is the handler associated with the Bind element.
     /// It doesn't do anything and is required due to the implementation approach used.
-    /// The logic associated with binding all happens within the <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
-    /// For a description on how the "bind" element can be used, please see: <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
-    /// Deserialization of the "bind" element takes place by class: <see cref="MyBatis.DataMapper.Configuration.Serializers.BindDeSerializer"/>.
+    /// The logic associated with binding all happens within the <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
+    /// For a description on how the "bind" element can be used, please see: <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
+    /// Deserialization of the "bind" element takes place by class: <see cref="XNetCore.MyBatis.DataMapper.Configuration.Serializers.BindDeSerializer"/>.
     /// </summary>
     /// <remarks>
     public class BindTagHandler : BaseTagHandler

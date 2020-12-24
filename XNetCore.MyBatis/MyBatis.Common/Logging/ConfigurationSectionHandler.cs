@@ -29,10 +29,10 @@ using System.Collections;
 using System.Collections.Specialized;
 using System.Configuration;
 using System.Xml;
-using MyBatis.Common.Logging.Impl;
-using ConfigurationException = MyBatis.Common.Exceptions.ConfigurationException;
+using XNetCore.MyBatis.Common.Logging.Impl;
+using ConfigurationException = XNetCore.MyBatis.Common.Exceptions.ConfigurationException;
 
-namespace MyBatis.Common.Logging
+namespace XNetCore.MyBatis.Common.Logging
 {
 	/// <summary>
 	/// Used in an application's configuration file (App.Config or Web.Config) to configure the logging subsystem.
@@ -44,12 +44,12 @@ namespace MyBatis.Common.Logging
 	/// <configuration>
 	///		<configSections>
 	///			<sectionGroup name="iBATIS">
-	///				<section name="logging" type="MyBatis.Common.Logging.ConfigurationSectionHandler, MyBatis.Common" />
+	///				<section name="logging" type="XNetCore.MyBatis.Common.Logging.ConfigurationSectionHandler, XNetCore.MyBatis.Common" />
 	///			</sectionGroup>	
 	///		</configSections>
 	///		<iBATIS>
 	///			<logging>
-	///				<logFactoryAdapter type="MyBatis.Common.Logging.Impl.ConsoleOutLoggerFA, MyBatis.Common">
+	///				<logFactoryAdapter type="XNetCore.MyBatis.Common.Logging.Impl.ConsoleOutLoggerFA, XNetCore.MyBatis.Common">
 	///					<arg key="showLogName" value="true" />
 	///					<arg key="showDataTime" value="true" />
 	///					<arg key="level" value="ALL" />
@@ -64,9 +64,9 @@ namespace MyBatis.Common.Logging
 	/// The following aliases are recognized for the type attribute of logFactoryAdapter: 
 	/// </para>
 	/// <list type="table">
-	/// <item><term>CONSOLE</term><description>Alias for Apache.Ibatis.Common.Logging.Impl.ConsoleOutLoggerFA, MyBatis.Common</description></item>
-	/// <item><term>TRACE</term><description>Alias for Apache.Ibatis.Common.Logging.Impl.TraceLoggerFA, MyBatis.Common</description></item>
-	/// <item><term>NOOP</term><description>Alias Apache.Ibatis.Common.Logging.Impl.NoOpLoggerFA, MyBatis.Common</description></item>
+	/// <item><term>CONSOLE</term><description>Alias for Apache.Ibatis.Common.Logging.Impl.ConsoleOutLoggerFA, XNetCore.MyBatis.Common</description></item>
+	/// <item><term>TRACE</term><description>Alias for Apache.Ibatis.Common.Logging.Impl.TraceLoggerFA, XNetCore.MyBatis.Common</description></item>
+	/// <item><term>NOOP</term><description>Alias Apache.Ibatis.Common.Logging.Impl.NoOpLoggerFA, XNetCore.MyBatis.Common</description></item>
 	/// </list>
 	/// </remarks>
 	public class ConfigurationSectionHandler: IConfigurationSectionHandler

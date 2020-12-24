@@ -24,10 +24,10 @@
 #endregion
 
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.PostSelectStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PostSelectStrategy
 {
 	/// <summary>
 	/// <see cref="IPostSelectStrategy"/> contract to excute a 'select' <see cref="ResultProperty"/>

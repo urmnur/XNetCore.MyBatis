@@ -30,7 +30,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MyBatis.Common.Utilities.TypesResolver
+namespace XNetCore.MyBatis.Common.Utilities.TypesResolver
 {
     /// <summary>
     /// Resolves (instantiates) a <see cref="System.Type"/> by it's (possibly

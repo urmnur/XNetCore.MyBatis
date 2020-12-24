@@ -25,11 +25,11 @@
 
 using System;
 using System.Collections;
-using MyBatis.DataMapper.TypeHandlers;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.DataExchange
+namespace XNetCore.MyBatis.DataMapper.DataExchange
 {
 	/// <summary>
 	/// Factory for DataExchange objects

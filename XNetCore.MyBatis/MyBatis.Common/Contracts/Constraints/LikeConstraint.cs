@@ -26,7 +26,7 @@
 
 using System.Text.RegularExpressions;
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// Checks to validate according to regex pattern

@@ -29,7 +29,7 @@
 
 #endregion
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
 	/// <summary>
 	/// Summary description for PreparedCommandFactory.

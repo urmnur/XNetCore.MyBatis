@@ -27,10 +27,10 @@ using System;
 using System.Collections;
 using System.Collections.Specialized;
 using System.Data;
-using MyBatis.Common;
-using MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.Common;
+using XNetCore.MyBatis.DataMapper.Exceptions;
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
 	/// <summary>
 	/// An implementation of <see cref="IDataReader"/> that will copy the contents

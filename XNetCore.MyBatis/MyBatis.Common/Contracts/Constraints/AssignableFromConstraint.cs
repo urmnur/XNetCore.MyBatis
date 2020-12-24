@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// Checks whether an instance of the current Type can be assigned from an instance of the specified Type. 

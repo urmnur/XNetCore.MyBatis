@@ -26,10 +26,10 @@
 
 using System;
 using System.Xml.Serialization;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Elements
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements
 {
 	/// <summary>
 	/// Represent an isLessThan sql tag element.

@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
 
 	/// <summary>

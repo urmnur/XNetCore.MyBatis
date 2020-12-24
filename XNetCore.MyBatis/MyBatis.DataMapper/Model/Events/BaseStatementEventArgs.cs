@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper.Model.Events
+namespace XNetCore.MyBatis.DataMapper.Model.Events
 {
     /// <summary>
     /// Base class for event statement

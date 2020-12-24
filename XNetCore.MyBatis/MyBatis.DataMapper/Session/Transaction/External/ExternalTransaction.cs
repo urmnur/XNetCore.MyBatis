@@ -28,7 +28,7 @@
 using System;
 using System.Data;
 
-namespace MyBatis.DataMapper.Session.Transaction.External
+namespace XNetCore.MyBatis.DataMapper.Session.Transaction.External
 {
     public class ExternalTransaction : ITransaction
     {

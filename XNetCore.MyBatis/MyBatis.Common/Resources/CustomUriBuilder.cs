@@ -25,11 +25,11 @@
 
 using System;
 using System.IO;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// Provides a custom constructor for uniform resource identifiers (URIs)

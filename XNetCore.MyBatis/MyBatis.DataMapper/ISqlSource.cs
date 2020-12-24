@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     /// <summary>
     /// Give access to the sql command text

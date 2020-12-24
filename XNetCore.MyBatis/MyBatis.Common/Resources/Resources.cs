@@ -31,14 +31,14 @@ using System.IO;
 using System.Reflection;
 using System.Security.Permissions;
 using System.Xml;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Logging;
 
 #endregion
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
 	/// <summary>
 	/// A class to simplify access to resources.

@@ -26,7 +26,7 @@
 
 using System.Data;
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
 	/// <summary>
 	/// Allows parameters to be set on the underlying prepared IDbCommand.

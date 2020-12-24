@@ -28,17 +28,17 @@ using System.Collections.Specialized;
 using System.Data;
 using System.Reflection;
 using System.Text;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
-using MyBatis.Common.Data;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
 	/// <summary>
 	/// Summary description for DefaultPreparedCommand.

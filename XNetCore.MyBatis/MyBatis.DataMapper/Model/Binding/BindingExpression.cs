@@ -1,5 +1,5 @@
 ﻿using System;
-namespace MyBatis.DataMapper.Model.Binding
+namespace XNetCore.MyBatis.DataMapper.Model.Binding
 {
     internal class BindingExpression
     {

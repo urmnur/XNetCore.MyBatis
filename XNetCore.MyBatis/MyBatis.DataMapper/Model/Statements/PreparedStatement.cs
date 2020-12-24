@@ -31,7 +31,7 @@ using System.Data;
 
 #endregion 
 
-namespace MyBatis.DataMapper.Model.Statements
+namespace XNetCore.MyBatis.DataMapper.Model.Statements
 {
 	/// <summary>
 	/// Construct the list of IDataParameters for the statement and prepare the sql. 

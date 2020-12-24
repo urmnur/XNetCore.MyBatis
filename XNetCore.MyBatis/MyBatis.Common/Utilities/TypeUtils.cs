@@ -25,9 +25,9 @@
 
 using System;
 using System.Collections.Generic;
-using MyBatis.Common.Utilities.TypesResolver;
+using XNetCore.MyBatis.Common.Utilities.TypesResolver;
 
-namespace MyBatis.Common.Utilities
+namespace XNetCore.MyBatis.Common.Utilities
 {
     /// <summary>
     ///  Helper methods with regard to type.

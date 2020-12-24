@@ -25,10 +25,10 @@
 
 #endregion Apache Notice
 
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic
 {
     /// <summary>
     /// Summary description for SqlText.

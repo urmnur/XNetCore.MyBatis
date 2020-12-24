@@ -29,22 +29,22 @@
 using System.Collections;
 using System.Text;
 
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Session;
-using MyBatis.DataMapper.Data;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
 
 #endregion
 
-namespace MyBatis.DataMapper.Model.Sql.SimpleDynamic
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.SimpleDynamic
 {
 	/// <summary>
     /// Represents a sql commqnd text which contains $property$ (old syntax) or ${property}

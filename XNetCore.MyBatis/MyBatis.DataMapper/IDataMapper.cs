@@ -26,9 +26,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Exceptions;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     ///<summary>
     /// Main interface the the dataMapper

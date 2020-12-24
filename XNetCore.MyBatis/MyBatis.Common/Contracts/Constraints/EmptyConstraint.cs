@@ -27,7 +27,7 @@
 using System.Collections;
 using System;
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// Checks whether a string or collection is empty

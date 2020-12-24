@@ -26,12 +26,12 @@
 #region Using
 
 using System.Xml;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Configuration;
 
 #endregion 
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for IDeSerializer.

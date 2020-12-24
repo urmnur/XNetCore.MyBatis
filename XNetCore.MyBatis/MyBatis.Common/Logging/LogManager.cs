@@ -26,9 +26,9 @@
 
 using System;
 using System.Configuration;
-using MyBatis.Common.Logging.Impl;
+using XNetCore.MyBatis.Common.Logging.Impl;
 
-namespace MyBatis.Common.Logging
+namespace XNetCore.MyBatis.Common.Logging
 {
 	/// <summary>
 	/// Uses the specified <see cref="ILoggerFactoryAdapter" /> to create <see cref="ILog" /> instances

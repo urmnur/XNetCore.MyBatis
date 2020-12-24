@@ -30,9 +30,9 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Text;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Utilities.Objects.Members
+namespace XNetCore.MyBatis.Common.Utilities.Objects.Members
 {
     /// <summary>
     /// A factory to build <see cref="SetAccessorFactory"/> for a type.

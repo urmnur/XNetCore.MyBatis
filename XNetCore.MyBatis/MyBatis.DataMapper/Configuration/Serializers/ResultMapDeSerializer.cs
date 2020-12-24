@@ -28,18 +28,18 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 using System.Data;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
     /// <summary>
     /// Summary description for ResultMapDeSerializer.

@@ -24,10 +24,10 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers
 {
 	/// <summary>
 	/// Summary description for IsNotEqualTagHandler.

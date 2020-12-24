@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     /// <summary>
     /// The default implementation of the <see cref="IMapperFactory"/>  

@@ -24,9 +24,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Model;
 
-namespace MyBatis.DataMapper
+namespace XNetCore.MyBatis.DataMapper
 {
     /// <summary>
     /// Provides access to the underlying <see cref="IModelStore"/>

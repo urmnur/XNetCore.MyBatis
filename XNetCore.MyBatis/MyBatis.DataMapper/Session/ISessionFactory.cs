@@ -25,9 +25,9 @@
 #endregion
 
 using System.Data;
-using MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Data;
 
-namespace MyBatis.DataMapper.Session
+namespace XNetCore.MyBatis.DataMapper.Session
 {
     /// <summary>
     /// A factory for <c>ISession</c> instances.

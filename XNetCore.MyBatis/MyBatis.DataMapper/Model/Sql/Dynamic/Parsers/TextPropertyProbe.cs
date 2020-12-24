@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Text;
-using MyBatis.Common.Utilities;
-using MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.DataMapper.Exceptions;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
 {
     /// <summary>
     /// This is called within DynamicSql and SimpleDynamicSql. It is responsible for finding all occurrences of
@@ -16,9 +16,9 @@ namespace MyBatis.DataMapper.Model.Sql.Dynamic.Parsers
     /// full reflection that indicates the current item within a list, or list of lists.
     /// This is done by working out the parent tag for each tag. If the parent tag is an iterate item, then the current iterate
     /// item is used in building up the property name.
-    /// The logic associated with binding all happens within the <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
-    /// For a description on how the "bind" element can be used, please see: <see cref="MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
-    /// Deserialization of the "bind" element takes place by class: <see cref="MyBatis.DataMapper.Configuration.Serializers.BindDeSerializer"/>.
+    /// The logic associated with binding all happens within the <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.DynamicSql"/>.ProcessBodyChildren method.
+    /// For a description on how the "bind" element can be used, please see: <see cref="XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements.Bind"/>.
+    /// Deserialization of the "bind" element takes place by class: <see cref="XNetCore.MyBatis.DataMapper.Configuration.Serializers.BindDeSerializer"/>.
     /// </summary>
     internal class TextPropertyProbe
     {

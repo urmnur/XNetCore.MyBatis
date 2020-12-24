@@ -25,7 +25,7 @@
 
 #endregion Apache Notice
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config
 {
     ///<summary>
     /// Constants for nodes and attributes name in iBATIS configuration

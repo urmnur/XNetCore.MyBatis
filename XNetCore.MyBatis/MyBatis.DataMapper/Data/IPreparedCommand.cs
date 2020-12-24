@@ -26,13 +26,13 @@
 
 #region Imports
 
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
 #endregion
 
-namespace MyBatis.DataMapper.Data
+namespace XNetCore.MyBatis.DataMapper.Data
 {
 	/// <summary>
 	/// Summary description for IPreparedCommand.

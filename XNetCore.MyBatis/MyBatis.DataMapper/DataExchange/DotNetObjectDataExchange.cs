@@ -24,12 +24,12 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.DataExchange
+namespace XNetCore.MyBatis.DataMapper.DataExchange
 {
 	/// <summary>
 	/// IDataExchange implementation for .NET object

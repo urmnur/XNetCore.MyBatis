@@ -28,10 +28,10 @@ using System;
 using System.Collections;
 using System.Xml.Serialization;
 
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
 using System.Collections.Generic;
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Elements
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements
 {
 	/// <summary>
 	/// SqlTag is a children element of dynamic Sql element.

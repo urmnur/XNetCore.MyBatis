@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
     /// <summary>
     /// System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089

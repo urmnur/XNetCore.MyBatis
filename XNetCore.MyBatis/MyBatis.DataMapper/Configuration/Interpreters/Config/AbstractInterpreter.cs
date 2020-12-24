@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config
 {
     /// <summary>
     /// Provides common methods for those who wants 

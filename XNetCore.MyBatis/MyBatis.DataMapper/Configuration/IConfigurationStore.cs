@@ -25,10 +25,10 @@
 #endregion
 
 using System.Collections.Generic;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Data;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     /// <summary>
     /// The contract of the configuration storage

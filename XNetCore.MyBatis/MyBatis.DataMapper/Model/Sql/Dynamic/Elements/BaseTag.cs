@@ -32,7 +32,7 @@ using System.Xml.Serialization;
 
 #endregion Imports
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic.Elements
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements
 {
     /// <summary>
     /// Summary description for BaseTag.

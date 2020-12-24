@@ -25,9 +25,9 @@
 
 using System;
 using System.ComponentModel;
-using MyBatis.DataMapper.Model.Events;
+using XNetCore.MyBatis.DataMapper.Model.Events;
 
-namespace MyBatis.DataMapper.Model.ResultMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ResultMapping
 {
     /// <summary>
     /// Base implementation for <see cref="IResultPropertySupportEvents"/>

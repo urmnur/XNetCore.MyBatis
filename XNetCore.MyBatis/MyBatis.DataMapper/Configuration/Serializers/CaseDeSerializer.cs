@@ -23,11 +23,11 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.Common.Configuration;
 
-namespace MyBatis.DataMapper.Configuration.Serializers
+namespace XNetCore.MyBatis.DataMapper.Configuration.Serializers
 {
 	/// <summary>
 	/// Summary description for CaseDeSerializer.

@@ -27,7 +27,7 @@
 using System.Collections.Generic;
 
 
-namespace MyBatis.DataMapper.Model.Cache.Implementation
+namespace XNetCore.MyBatis.DataMapper.Model.Cache.Implementation
 {
 	/// <summary>
 	/// A read-only cache implementation where cache object are shared among all users and therefore offer greater performance benefit. 

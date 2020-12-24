@@ -27,10 +27,10 @@
 using System;
 using System.Collections;
 using System.Reflection;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// Description r�sum�e de ObjectProbe.

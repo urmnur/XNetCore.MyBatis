@@ -27,7 +27,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace MyBatis.Common.Exceptions
+namespace XNetCore.MyBatis.Common.Exceptions
 {
 	/// <summary>
 	/// Summary description for ProbeException.

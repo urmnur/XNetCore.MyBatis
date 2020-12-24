@@ -31,7 +31,7 @@ using System.Runtime.Serialization;
 
 #endregion 
 
-namespace MyBatis.Common.Exceptions
+namespace XNetCore.MyBatis.Common.Exceptions
 {
 
 	/// <summary>

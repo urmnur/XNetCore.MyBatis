@@ -33,7 +33,7 @@ using System.Data;
 
 #endregion
 
-namespace MyBatis.Common.Utilities.TypesResolver
+namespace XNetCore.MyBatis.Common.Utilities.TypesResolver
 {
 	/// <summary> 
 	/// Provides access to a central registry of aliased <see cref="System.Type"/>s.

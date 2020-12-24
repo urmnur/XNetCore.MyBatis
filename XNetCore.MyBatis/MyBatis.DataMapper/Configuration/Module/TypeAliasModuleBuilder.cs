@@ -24,12 +24,12 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.DataMapper.Configuration.Module
+namespace XNetCore.MyBatis.DataMapper.Configuration.Module
 {
     /// <summary>
     /// Handles fluent configuration for TypeAlias element

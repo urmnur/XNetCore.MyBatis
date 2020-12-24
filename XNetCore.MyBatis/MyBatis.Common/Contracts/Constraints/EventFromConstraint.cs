@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// Checks f the value is an event announced by a specific object.

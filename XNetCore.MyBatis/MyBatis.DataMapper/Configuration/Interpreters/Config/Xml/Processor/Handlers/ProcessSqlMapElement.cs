@@ -25,12 +25,12 @@
 
 using System;
 using System.Xml;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
 {
     public partial class XmlConfigProcessor
     {

@@ -28,12 +28,12 @@
 
 using System;
 using System.Diagnostics;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
 #endregion
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
 	/// <summary>
 	/// Information about a data source.

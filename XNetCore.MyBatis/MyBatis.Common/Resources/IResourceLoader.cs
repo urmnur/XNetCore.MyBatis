@@ -25,7 +25,7 @@
 
 using System;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// Return an <see cref="Apache.Ibatis.Common.Utilities.Resources.IResource"/> handle for the

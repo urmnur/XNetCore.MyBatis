@@ -27,17 +27,17 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.DataMapper.Model;
-using MyBatis.DataMapper.Configuration.Module;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.DataMapper.Model;
+using XNetCore.MyBatis.DataMapper.Configuration.Module;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     /// <summary>
     /// The default <see cref="IConfigurationEngine"/> implementation.

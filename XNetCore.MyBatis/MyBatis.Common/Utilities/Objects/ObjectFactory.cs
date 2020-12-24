@@ -25,9 +25,9 @@
 
 using System;
 using System.Reflection;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// A factory to create objects 

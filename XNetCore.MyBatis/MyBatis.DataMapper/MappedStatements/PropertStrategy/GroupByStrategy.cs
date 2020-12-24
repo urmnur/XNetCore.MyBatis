@@ -26,12 +26,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.MappedStatements.PropertyStrategy;
-using MyBatis.DataMapper.Scope;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.MappedStatements.PropertyStrategy;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
-namespace MyBatis.DataMapper.MappedStatements.PropertStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PropertStrategy
 {
     /// <summary>
     /// <see cref="IPropertyStrategy"/> implementation when a 'resultMapping' attribute exists

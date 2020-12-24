@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Xml;
-using MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor;
-using MyBatis.Common.Configuration;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.Common.Data;
-using MyBatis.Common.Resources;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor;
+using XNetCore.MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Data;
+using XNetCore.MyBatis.Common.Resources;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
 {
     /// <summary>
     /// Allows most of the XML normally contained in SqlMapConfig.xml to be expressed in code. SqlMap items 
@@ -26,7 +26,7 @@ namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
     ///    &lt;dataSource name="ibatisnet.sqlmap" connectionString="Data Source=ibatisnet.sqlite;Version=3;"/&gt;
     ///   &lt;/database&gt;  
     ///   &lt;alias&gt;
-    ///    &lt;typeAlias alias="Account" type="MyBatis.DataMapper.Sqlite.Test.Domain.Account, MyBatis.DataMapper.Sqlite.Test"/&gt;
+    ///    &lt;typeAlias alias="Account" type="XNetCore.MyBatis.DataMapper.Sqlite.Test.Domain.Account, XNetCore.MyBatis.DataMapper.Sqlite.Test"/&gt;
     ///   &lt;/alias&gt;  
     ///   &lt;sqlMaps&gt;
     ///    &lt;sqlMap uri="file://../../Maps/Account.xml"/&gt;
@@ -73,7 +73,7 @@ namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml
         /// <example>
         /// <code>
         /// &lt;alias&gt;
-        ///	 &lt;typeAlias alias="Account" type="MyBatis.DataMapper.Sqlite.Test.Domain.Account, MyBatis.DataMapper.Sqlite.Test"/&gt;
+        ///	 &lt;typeAlias alias="Account" type="XNetCore.MyBatis.DataMapper.Sqlite.Test.Domain.Account, XNetCore.MyBatis.DataMapper.Sqlite.Test"/&gt;
 	    /// &lt;/alias&gt;
         /// </code>
         /// </example>

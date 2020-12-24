@@ -25,7 +25,7 @@
 #endregion
 
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
 	/// <summary>
 	/// A simple interface for implementing custom type handlers.

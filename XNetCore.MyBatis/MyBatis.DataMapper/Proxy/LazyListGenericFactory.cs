@@ -25,12 +25,12 @@
 
 using System;
 
-using MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
 using System.Collections.Generic;
-using MyBatis.Common.Utilities.Objects;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.Proxy
+namespace XNetCore.MyBatis.DataMapper.Proxy
 {
     /// <summary>
     ///    /// Implementation of <see cref="ILazyFactory"/> to create proxy for an generic IList element.

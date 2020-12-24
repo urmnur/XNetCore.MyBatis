@@ -25,9 +25,9 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.Model.Events
+namespace XNetCore.MyBatis.DataMapper.Model.Events
 {
     /// <summary>
     /// Lauchs after setting the property value in an instance of a <see cref="IResultMap"/> object.

@@ -31,17 +31,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Reflection;
-using MyBatis.DataMapper.Exceptions;
-using MyBatis.DataMapper.Model.Alias;
-using MyBatis.DataMapper.TypeHandlers.Nullables;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Logging;
-using MyBatis.Common.Utilities;
-using MyBatis.Common.Utilities.Objects;
+using XNetCore.MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Model.Alias;
+using XNetCore.MyBatis.DataMapper.TypeHandlers.Nullables;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Utilities.Objects;
 
 #endregion 
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
 	/// <summary>
 	/// Not much of a suprise, this is a factory class for TypeHandler objects.

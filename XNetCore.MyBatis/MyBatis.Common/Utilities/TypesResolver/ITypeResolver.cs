@@ -29,7 +29,7 @@
 
 using System;
 
-namespace MyBatis.Common.Utilities.TypesResolver
+namespace XNetCore.MyBatis.Common.Utilities.TypesResolver
 {
     /// <summary>
     /// Resolves a <see cref="System.Type"/> by name.

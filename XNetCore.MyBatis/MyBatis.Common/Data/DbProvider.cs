@@ -31,12 +31,12 @@ using System.Data;
 using System.Reflection;
 using System.Xml.Serialization;
 using System.Diagnostics;
-using MyBatis.Common.Exceptions;
-using MyBatis.Common.Utilities;
+using XNetCore.MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Utilities;
 
 #endregion
 
-namespace MyBatis.Common.Data
+namespace XNetCore.MyBatis.Common.Data
 {
     /// <summary>
     /// Information about a data provider.

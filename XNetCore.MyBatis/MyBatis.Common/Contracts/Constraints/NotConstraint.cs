@@ -23,7 +23,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.Common.Contracts.Constraints
+namespace XNetCore.MyBatis.Common.Contracts.Constraints
 {
     /// <summary>
     /// NotConstraint negates the effect of some other constraint 

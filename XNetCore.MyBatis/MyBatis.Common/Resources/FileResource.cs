@@ -26,10 +26,10 @@
 using System;
 using System.Globalization;
 using System.IO;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// A <see cref="System.IO.File"/> backed resource.

@@ -29,9 +29,9 @@ using System;
 using System.Data;
 using System.Globalization;
 
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.TypeHandlers
+namespace XNetCore.MyBatis.DataMapper.TypeHandlers
 {
 	/// <summary>
 	/// DecimalTypeHandler.

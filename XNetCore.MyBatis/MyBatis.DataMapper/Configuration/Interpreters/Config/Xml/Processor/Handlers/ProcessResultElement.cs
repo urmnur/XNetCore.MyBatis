@@ -23,9 +23,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.Common.Configuration;
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Xml.Processor
 {
     public partial class XmlMappingProcessor
     {

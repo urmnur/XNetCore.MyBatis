@@ -28,7 +28,7 @@ using System;
 using System.Collections;
 using System.Collections.Specialized;
 
-namespace MyBatis.Common.Logging.Impl
+namespace XNetCore.MyBatis.Common.Logging.Impl
 {
 	/// <summary>
 	/// Factory for creating <see cref="ILog" /> instances that write data to <see cref="Console.Out" />.

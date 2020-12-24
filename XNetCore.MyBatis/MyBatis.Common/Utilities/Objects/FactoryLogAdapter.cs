@@ -26,9 +26,9 @@
 using System;
 using System.Reflection;
 using System.Text;
-using MyBatis.Common.Logging;
+using XNetCore.MyBatis.Common.Logging;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
     /// A wrapper arround an <see cref="IFactory"/> implementation which logs argument type and value

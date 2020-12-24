@@ -29,9 +29,9 @@ using System.Collections;
 using System.Collections.Specialized;
 using System.Reflection;
 using System.Collections.Generic;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Utilities.Objects
+namespace XNetCore.MyBatis.Common.Utilities.Objects
 {
 	/// <summary>
 	/// This class represents a cached set of class definition information that

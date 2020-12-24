@@ -24,9 +24,9 @@
  ********************************************************************************/
 #endregion
 
-using MyBatis.DataMapper.Exceptions;
+using XNetCore.MyBatis.DataMapper.Exceptions;
 
-namespace MyBatis.DataMapper.Model.Cache
+namespace XNetCore.MyBatis.DataMapper.Model.Cache
 {
     /// <summary>
     /// Base Cache class implements a template method pattern for subclasses.

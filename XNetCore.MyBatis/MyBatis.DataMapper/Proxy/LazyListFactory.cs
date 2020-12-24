@@ -26,10 +26,10 @@
 using System;
 using System.Collections;
 using System.Text;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.Common.Utilities.Objects.Members;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.Common.Utilities.Objects.Members;
 
-namespace MyBatis.DataMapper.Proxy
+namespace XNetCore.MyBatis.DataMapper.Proxy
 {
     /// <summary>
     /// Implementation of <see cref="ILazyFactory"/> to create proxy for an <see cref="IList"/> element.

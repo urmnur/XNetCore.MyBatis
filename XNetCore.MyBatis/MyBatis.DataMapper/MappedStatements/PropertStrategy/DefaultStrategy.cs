@@ -25,11 +25,11 @@
 
 using System;
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.TypeHandlers;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.TypeHandlers;
 
-namespace MyBatis.DataMapper.MappedStatements.PropertyStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.PropertyStrategy
 {
 	/// <summary>
 	/// <see cref="IPropertyStrategy"/> implementation when no 'select' or

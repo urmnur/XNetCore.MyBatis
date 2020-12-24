@@ -24,9 +24,9 @@
 #endregion
 
 using System.Data;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.MappedStatements
+namespace XNetCore.MyBatis.DataMapper.MappedStatements
 {
 	/// <summary>
 	/// All data to retrieve 'select' <see cref="ResultProperty"/>

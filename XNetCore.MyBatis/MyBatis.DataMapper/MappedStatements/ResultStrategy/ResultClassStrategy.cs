@@ -25,9 +25,9 @@
 
 using System.Collections;
 using System.Data;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.ResultStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.ResultStrategy
 {
 	/// <summary>
 	/// <see cref="IResultStrategy"/> implementation when 

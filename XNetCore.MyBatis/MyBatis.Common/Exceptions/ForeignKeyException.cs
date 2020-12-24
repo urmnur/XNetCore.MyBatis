@@ -27,7 +27,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace MyBatis.Common.Exceptions
+namespace XNetCore.MyBatis.Common.Exceptions
 {
 	/// <summary>
 	/// A DALForeignKeyException is thrown when foreign key error occured in a sql statement.

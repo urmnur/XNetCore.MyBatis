@@ -25,18 +25,18 @@
 #endregion
 
 using System.Data;
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Sql.SimpleDynamic;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.SimpleDynamic;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
 
-namespace MyBatis.DataMapper.Model.Sql.External
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.External
 {
     /// <summary>
     /// Represents ths SQL of a mapped statement with an external <see cref="ISqlSource"/>.

@@ -23,7 +23,7 @@
  ********************************************************************************/
 #endregion
 
-namespace MyBatis.DataMapper.Configuration.Interpreters.Config.Code
+namespace XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config.Code
 {
     public class CodeConfigInterpreter
     {

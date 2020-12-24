@@ -30,23 +30,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-using MyBatis.Common.Contracts;
-using MyBatis.Common.Contracts.Constraints;
-using MyBatis.DataMapper.Data;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.MappedStatements;
-using MyBatis.DataMapper.Model.ParameterMapping;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
-using MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
-using MyBatis.DataMapper.Model.Sql.SimpleDynamic;
-using MyBatis.DataMapper.Model.Statements;
-using MyBatis.DataMapper.Scope;
-using MyBatis.DataMapper.Session;
+using XNetCore.MyBatis.Common.Contracts;
+using XNetCore.MyBatis.Common.Contracts.Constraints;
+using XNetCore.MyBatis.DataMapper.Data;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.MappedStatements;
+using XNetCore.MyBatis.DataMapper.Model.ParameterMapping;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Elements;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Handlers;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic.Parsers;
+using XNetCore.MyBatis.DataMapper.Model.Sql.SimpleDynamic;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Session;
 
 #endregion Imports
 
-namespace MyBatis.DataMapper.Model.Sql.Dynamic
+namespace XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic
 {
     /// <summary>
     /// DynamicSql represent the root element of a dynamic sql statement

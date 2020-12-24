@@ -26,7 +26,7 @@
 
 using System;
 
-namespace MyBatis.DataMapper.Model.Cache
+namespace XNetCore.MyBatis.DataMapper.Model.Cache
 {
 	/// <summary>
 	/// Summary description for ICache.

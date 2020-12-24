@@ -25,9 +25,9 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
 
-namespace MyBatis.DataMapper.Model.Events
+namespace XNetCore.MyBatis.DataMapper.Model.Events
 {
     /// <summary>
     /// Event lauchs before creating an instance of the <see cref="IResultMap"/> object.

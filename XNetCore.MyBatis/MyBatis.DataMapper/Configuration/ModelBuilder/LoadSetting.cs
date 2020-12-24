@@ -25,11 +25,11 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.Configuration.Interpreters.Config;
-using MyBatis.Common.Configuration;
+using XNetCore.MyBatis.DataMapper.Configuration.Interpreters.Config;
+using XNetCore.MyBatis.Common.Configuration;
 
 
-namespace MyBatis.DataMapper.Configuration
+namespace XNetCore.MyBatis.DataMapper.Configuration
 {
     public partial class DefaultModelBuilder
     {

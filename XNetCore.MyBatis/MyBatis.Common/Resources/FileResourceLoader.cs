@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// File resource loader implementation of the

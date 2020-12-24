@@ -26,7 +26,7 @@
 using System;
 using System.IO;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// Convenience base class for <see cref="IResource"/>

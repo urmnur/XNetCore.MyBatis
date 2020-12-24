@@ -26,10 +26,10 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
-using MyBatis.DataMapper.Model.ResultMapping;
-using MyBatis.DataMapper.Scope;
+using XNetCore.MyBatis.DataMapper.Model.ResultMapping;
+using XNetCore.MyBatis.DataMapper.Scope;
 
-namespace MyBatis.DataMapper.MappedStatements.ResultStrategy
+namespace XNetCore.MyBatis.DataMapper.MappedStatements.ResultStrategy
 {
     /// <summary>
     /// <see cref="IResultStrategy"/> implementation ro resolve circular refrence when 

@@ -24,9 +24,9 @@
 #endregion
 
 using System;
-using MyBatis.Common.Exceptions;
+using XNetCore.MyBatis.Common.Exceptions;
 
-namespace MyBatis.Common.Resources
+namespace XNetCore.MyBatis.Common.Resources
 {
     /// <summary>
     /// Assembly resource loader implementation of the
@@ -43,7 +43,7 @@ namespace MyBatis.Common.Resources
     /// </remarks>
     /// <example>
     /// iBATIS V1 
-    /// "Apache.Ibatis.Common.Test.properties.xml, MyBatis.Common.Test"
+    /// "Apache.Ibatis.Common.Test.properties.xml, XNetCore.MyBatis.Common.Test"
     /// 
     /// iBATIS V2
     /// assembly://Apache.Ibatis.Common.Test/Apache.Ibatis.Common.Test/properties.xml

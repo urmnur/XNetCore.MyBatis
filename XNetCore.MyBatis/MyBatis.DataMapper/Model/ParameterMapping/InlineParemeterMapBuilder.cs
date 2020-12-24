@@ -24,11 +24,11 @@
 #endregion
 
 using System;
-using MyBatis.DataMapper.DataExchange;
-using MyBatis.DataMapper.Model.Sql.Dynamic;
-using MyBatis.DataMapper.Model.Statements;
+using XNetCore.MyBatis.DataMapper.DataExchange;
+using XNetCore.MyBatis.DataMapper.Model.Sql.Dynamic;
+using XNetCore.MyBatis.DataMapper.Model.Statements;
 
-namespace MyBatis.DataMapper.Model.ParameterMapping
+namespace XNetCore.MyBatis.DataMapper.Model.ParameterMapping
 {
     /// <summary>
     /// Inline Paremeter MapBuilder
